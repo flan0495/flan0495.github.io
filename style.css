@@ -1,0 +1,12 @@
+:root{--bg:#0f1730;--fg:#ece6d6;--muted:#b9b2a2;--gold:#d8b46a}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;line-height:1.9}
+main{max-width:720px;margin:0 auto;padding:48px 20px 64px}
+h1{font-size:1.8rem;letter-spacing:.08em;margin:0 0 .4em;color:var(--gold)}
+h2{font-size:1.15rem;margin:2em 0 .5em;color:var(--gold)}
+p,li{color:var(--fg)}
+.muted{color:var(--muted);font-size:.9rem}
+a{color:var(--gold)}
+hr{border:0;border-top:1px solid #3a4260;margin:2.5em 0}
+code{word-break:break-all;font-size:.85em}
